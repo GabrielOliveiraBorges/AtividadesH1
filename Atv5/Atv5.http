@@ -1,0 +1,6 @@
+@Atv5_HostAddress = http://localhost:5287
+
+GET {{Atv5_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

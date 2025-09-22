@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projetos\\AtividadesH1\\Atv4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|c:\\projetos\\atividadesh1\\atv4\\atv4\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|solutionrelative:atv4\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|c:\\projetos\\atividadesh1\\atv4\\atv4\\validation\\customvalidationra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|solutionrelative:atv4\\validation\\customvalidationra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|c:\\projetos\\atividadesh1\\atv4\\atv4\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB1CBA9C-B9AB-4D07-BBCD-7F510095198C}|Atv4\\Atv4.csproj|solutionrelative:atv4\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomValidationRA.cs",
+              "DocumentMoniker": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Validation\\CustomValidationRA.cs",
+              "RelativeDocumentMoniker": "Atv4\\Validation\\CustomValidationRA.cs",
+              "ToolTip": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Validation\\CustomValidationRA.cs",
+              "RelativeToolTip": "Atv4\\Validation\\CustomValidationRA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:56:22.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "Atv4\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Models\\Aluno.cs",
+              "RelativeToolTip": "Atv4\\Models\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:53.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Controllers\\AlunoController.cs",
+              "RelativeDocumentMoniker": "Atv4\\Controllers\\AlunoController.cs",
+              "ToolTip": "C:\\Projetos\\AtividadesH1\\Atv4\\Atv4\\Controllers\\AlunoController.cs",
+              "RelativeToolTip": "Atv4\\Controllers\\AlunoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T00:55:22.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
