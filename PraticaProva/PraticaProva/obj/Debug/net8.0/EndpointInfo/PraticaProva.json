@@ -1,0 +1,137 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PraticaProva",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cartas": {
+      "post": {
+        "tags": [
+          "Cartas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cartas/{id}": {
+      "get": {
+        "tags": [
+          "Cartas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CartaRequest": {
+        "required": [
+          "endereco",
+          "idade",
+          "nomeCrianca",
+          "texto"
+        ],
+        "type": "object",
+        "properties": {
+          "nomeCrianca": {
+            "maxLength": 255,
+            "minLength": 3,
+            "type": "string"
+          },
+          "endereco": {
+            "$ref": "#/components/schemas/Endereco"
+          },
+          "idade": {
+            "maximum": 14,
+            "minimum": 0,
+            "type": "integer",
+            "format": "int32"
+          },
+          "texto": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Endereco": {
+        "required": [
+          "bairro",
+          "cep",
+          "cidade",
+          "estado",
+          "numero",
+          "rua"
+        ],
+        "type": "object",
+        "properties": {
+          "rua": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "numero": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bairro": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cidade": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "estado": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cep": {
+            "minLength": 1,
+            "pattern": "^\\d{5}-\\d{3}$",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
